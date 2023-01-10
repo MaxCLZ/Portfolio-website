@@ -159,10 +159,11 @@ header {
     font-weight: bold; }
 
 .project .project-details {
-  display: none; }
+  display: none;
+  border: 1px solid var(--github);
+  border-radius: 10px; }
 
 .skills i {
-  font-family: "Font Awesome 5 Brands";
   font-size: 4rem;
   margin-left: 1rem; }
   .skills i:hover {
@@ -202,6 +203,7 @@ footer {
     footer .social-container:hover {
       background: var(--border); }
       footer .social-container:hover i {
+        font-family: "Font Awesome 5 Brands";
         transform: scale(1.3);
         transition: all 0.2s; }
         footer .social-container:hover i.fa-instagram {
